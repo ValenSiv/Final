@@ -1,0 +1,6 @@
+Alumno: Sivori Valentin
+Comision: A
+Turno: Tarde
+
+URL DE LA PAGINA: 
+https://tp-2-theta.vercel.app/
