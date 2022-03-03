@@ -66,12 +66,13 @@
    .icono_carrito {
     position:fixed;
 	z-index:1000;
-	top:620px;
-    left: 250px;
+	top:190vw;
+    left: 70vw;
+
    }
 
    img.logo {
-       padding-top: 7rem;
+     
        width: 10rem;
    }
 
@@ -96,9 +97,6 @@ img {
    margin: auto;
 }
 
-#carousel {
-    padding-top: 5rem;
-}
 main {
     padding-bottom: 3rem;
     background-color: #F8F9FA;
