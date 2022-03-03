@@ -194,7 +194,7 @@ nav {
     height: 2.5rem;
 }
 
-.button {
+button {
    background-color: #227afd;
    border-radius: 5px;
    font-weight: 500;
@@ -203,7 +203,7 @@ nav {
    color: white;
 }
 
-.button:hover {
+button:hover {
     background-color: #1b4b93;
     transition: 0.2s;
 }
