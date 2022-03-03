@@ -203,7 +203,7 @@ button {
    color: white;
 }
 
-button:hover {
+.boton_js:hover {
     background-color: #1b4b93;
     transition: 0.2s;
 }
