@@ -1,4 +1,4 @@
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 480px) {
 
    .fondo_amarillo {
        display: block;
@@ -56,13 +56,9 @@
    }
 
    .titulo_tienda {
-     display: flex;
-     justify-content: center;
-     align-items: center;
+
      border-bottom-left-radius: 8px;
      border-bottom-right-radius: 8px;
-     margin-left: 0px!important;
-     margin-right: 0px!important;
    }
 
    .icono_carrito {
@@ -70,7 +66,6 @@
 	z-index:1000;
 	top:170vw;
     left: 70vw;
-
    }
 
    img.logo {
@@ -138,11 +133,10 @@ nav {
     font-weight: bold;
 }
 
-
-
-
-
-
+.titulo_navbar {
+   font-size: 1.25rem;
+   margin-bottom: 3px;
+}
 
 /* //////////////////////////////////////// COMPONENTES TIENDA ////////////////////////////////////////////// */
 
@@ -259,9 +253,14 @@ textarea.desc {
     margin-bottom: 2rem;
 }
 
+.producto {
+    display: flex;
+    justify-content: center;
+}
 
-
-
+.icono_carrito {
+    position: fixed;
+}
 
 /* //////////////////////////////////////// CSS GENERAL - INICIO ////////////////////////////////////////////// */
 
@@ -311,17 +310,13 @@ span {
 
 .parrafos {
     font-size: 1.3rem;
+   display: flex;
+   justify-content: center;
 }
 
 .estilos_card {
     width: 18rem!important;
     height: 26rem;
-}
-
-.productos {
-    background-color: #0B5ED7;
-    color: rgb(255, 255, 255)!important;
-    height: 2.5rem;
 }
 
 .titulo_remeras {
@@ -388,7 +383,11 @@ span {
     margin-bottom: 4rem;
 }
 
-
+.cards {
+    justify-content: center;
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
 
 
 
