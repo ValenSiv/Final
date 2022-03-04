@@ -3,7 +3,7 @@
  "background_color": "#40a0ff",
  "display": "fullscreen",
  "lang": "es",
- "orientation": "landscape",
+ "orientation": "any",
  "start-url": "/",
  "scope": "/",
  "icons": [
