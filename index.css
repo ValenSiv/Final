@@ -84,9 +84,15 @@
 }
 
 
+@media screen and (min-width: 770px) {
+    #carrito {
+        width: 60%!important;
+    }
 
-
-
+    #total {
+        width: 60%!important;
+    }
+}
 /* //////////////////////////////////////// GENERAL ////////////////////////////////////////////// */
  
 h5 {
@@ -423,6 +429,7 @@ form {
       display: flex;
       justify-content: center;
       margin-bottom: 3rem;
+      text-align: center;
   }
 
   
