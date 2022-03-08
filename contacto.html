@@ -53,28 +53,35 @@
           <h3>¿Querés contactarnos?</h3>
         </div>  
         
-        <form method="post" enctype="multipart/form-data" action="" target="_blank">
-          <h5>Dejanos un mensaje con el siguiente formulario</h5>
-          <div class="control">
-            <label>Nombre</label>
-            <input type="text" name="nombre">
+        <form action="post">
+          <section>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="nombre" class="form-control" id="nombre" placeholder="Introduzca su nombre">
+            </div>
+
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="apellido" class="form-control" id="apellido" placeholder="Introduzca su apellido">
+            </div>
+
+          <div class="mb-3">
+            <label for="mail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="mail" placeholder="nombre@gmail.com">
           </div>
-        
-          <div class="control">
-            <label>Mail</label>
-            <input type="email" name="mail">
+          <div class="mb-3">
+            <label for="comentario" class="form-label">Comentario</label>
+            <textarea class="form-control" id="comentario" rows="3"></textarea>
           </div>
-        
-          <div class="control">
-            <label>Comentario</label>
-            <textarea name="comentario" cols="30" rows="5"></textarea>
-          </div>
-        
+
           <div class="botones_form">
             <input type="reset" value="Limpiar">
             <input type="submit" value="Enviar">
           </div>
-        </form>
+
+         </form>
+
+
       </section>
 
     </main>
