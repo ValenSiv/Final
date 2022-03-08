@@ -56,9 +56,14 @@
    }
 
    .titulo_tienda {
-
      border-bottom-left-radius: 8px;
      border-bottom-right-radius: 8px;
+   }
+
+   .titulo_tienda:first-child {
+       display: flex;
+    justify-content: center;
+    align-items: center;
    }
 
    .icono_carrito {
@@ -93,6 +98,10 @@
         width: 60%!important;
     }
 }
+
+
+
+
 /* //////////////////////////////////////// GENERAL ////////////////////////////////////////////// */
  
 h5 {
